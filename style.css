@@ -1,0 +1,31 @@
+.tabela,.tabela th , .tabela td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.tabela td , .tabela th {
+    padding: 10px;
+}
+
+.tabela{
+    width: 100%;
+    text-align: center;
+    
+}
+.container-tabela{
+    overflow-x: scroll;
+}
+
+.tabela th{
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+}
+
+.tabela tr:nth-child(odd){
+    background-color: rgba(25, 218, 153, 0.233);
+}
+
+.tabela tr:hover{
+    background-color: rgb(231, 243, 58);
+}
